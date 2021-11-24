@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="sec1">
+        </div>
+        <div class="number">
+          <div> <img src="./Images/0.png"></div>
+          <div><img src="./Images/1.png" ></div>
+          <div> <img src="./Images/2.png" class="img2"></div>
+          <div><img src="./Images/3.png"></div>
+          <div> <img src="./Images/4.png"></div>
+          <div> <img src="./Images/5.png" class="img2"></div>
+          <div><img src="./Images/6.png"></div>
+          <div><img src="./Images/Add.png"></div>
+          <div><img src="./Images/3.png"></div>
+    
+        </div>
+    
+        <div class="number number1">
+          <div> <img src="./Images/7.png"></div>
+          <div><img src="./Images/8.png"></div>
+          <div> <img src="./Images/9.png"></div>
+          <div><img src="./Images/Add.png"></div>
+          <div> <img src="./Images/Divide.png" class="img2"></div>
+          <div> <img src="./Images/Eqaulto.png"></div>
+          <div><img src="./Images/Multiply.png" class="img2"></div>
+          <div><img src="./Images/4.png"></div>
+          <div><img src="./Images/0.png" class="img2"></div>
+    
+        </div>
+        <div id="mainBox" class="container">
+            <h2>
+              TIMER
+            </h2></div>
+      <div class="container paradiv">
+        <div class="col-lg-1 col-md-1 col-sm-2">
+          <p id="hours">0</p>
+        </div>
+
+        <div class="col-lg-1 col-md-1 col-sm-1">
+          <p>:</p>
+        </div>
+
+        <div class="col-lg-1 col-md-1 col-sm-1">
+          <p id="min">0</p>
+        </div>
+
+        <div class="col-lg-1 col-md-1 col-sm-1">
+          <p>:</p>
+        </div>
+
+        <div class="col-lg-1 col-md-1 col-sm-1">
+          <p id="sec">0</p>
+        </div>
+
+        <div class="col-lg-1 col-md-1 col-sm-1">
+          <p>:</p>
+        </div>
+
+        <div class="col-lg-1 col-md-1 col-sm-1">
+          <p id="milsec">0</p>
+        </div>
+      </div>
+
+      <div class="container btndiv">
+        <div class="col-lg-4">
+          <button id="playBtn" onclick="play()">
+            <i class="fas fa-play"></i>
+          </button>
+        </div>
+
+        <div class="col-lg-4">
+          <button id="stopBtn" onclick="stop()" disabled>
+            <i class="fas fa-pause"></i>
+          </button>
+        </div>
+
+        <div class="col-lg-4">
+          <button id="resetBtn" onclick="reset()" disabled>
+            <i class="fas fa-redo-alt"></i>
+          </button>
+        </div>
+    </div>
+    <div id="mainBox2" class="container"></div>
+      </section>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    crossorigin="anonymous"
+  ></script>
+  <script src="app.js"></script>
+</html>
